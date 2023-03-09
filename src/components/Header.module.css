@@ -1,0 +1,43 @@
+.headerView {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoView {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px
+}
+
+.menuList {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuItem {
+    margin: 10px
+}
+
+.logoutButton {
+    background-color: #2C8ED2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.name {
+    font-weight: bold;
+    text-decoration: underline;
+}

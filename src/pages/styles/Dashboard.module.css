@@ -1,0 +1,26 @@
+
+
+.main{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tileView{
+    display: flex;
+    flex:1;
+    align-items: center;
+    background-color: #ddd;
+    margin: 10px;
+    padding: 50px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 22px;
+    text-align: center;
+}
